@@ -45,26 +45,6 @@ Library yang Digunakan
 
 ---
 
-Cara Menjalankan
-
-1. Clone Repository
-```bash
-git clone https://github.com/username/Prediksi-IHK-Kota-Palu.git
-cd Prediksi-IHK-Kota-Palu
-```
-
-2. Install Library
-```bash
-pip install -r requirements.txt
-```
-
-3. Jalankan Program
-```bash
-python prediksi_IHK_palu_rf.py
-```
-
----
-
 Variabel Dataset
 
 | No | Variabel | Keterangan | Tipe |
@@ -117,14 +97,6 @@ Feature Importance
 | 5 | Bahan Makanan | 0.0912 (9.12%) |
 | 6 | Kesehatan | 0.0705 (7.05%) |
 | 7 | Transportasi, Komunikasi & Jasa Keuangan | 0.0214 (2.14%) |
-
----
-
-Visualisasi Hasil
-
-![Grafik Prediksi IHK Kota Palu](grafik_IHK_palu_real.png)
-
-> Grafik menampilkan: (1) Tren IHK 2011–2023, (2) Aktual vs Prediksi, (3) Scatter Plot, (4) Feature Importance
 
 ---
 
